@@ -119,7 +119,7 @@ class MoneyManager extends Component {
     return (
       <div className="mainContainer">
         <div className="userContainer">
-          <h1 className="userName">Hi, Eshwar</h1>
+          <h1 className="userName">Hi, Rakesh Karthik</h1>
           <p className="welcomeMessage">
             Welcome back to your
             <span className="moneyManager">Money Manager</span>
