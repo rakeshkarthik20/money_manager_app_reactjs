@@ -1,0 +1,222 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  margin-left: 190px;
+  margin-right: 190px;
+}
+.userContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 40px;
+  padding-left: 40px;
+  border-radius: 30px;
+  padding-bottom: 15px;
+}
+.userName {
+  color: #475569;
+  padding-bottom: 0px;
+}
+.welcomeMessage {
+  color: #475569;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.moneyManager {
+  color: #0b69ff;
+  font-weight: 500;
+  padding-left: 5px;
+}
+.transactionManagementContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.transactionContainer {
+  border: 1px solid;
+  padding: 45px;
+  border-radius: 10px;
+  width: 40%;
+  padding: 10px 30px;
+  height: 450px;
+  border: 1px solid #d7dfe9;
+}
+.historyContainer {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid;
+  padding: 45px;
+  width: 55%;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 1px solid #d7dfe9;
+}
+.input {
+  width: 100%;
+  padding: 9px 15px;
+  margin-bottom: 15px;
+  border: 1px solid #d7dfe9;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 5px;
+  color: #475569;
+}
+.historyTable {
+  border: 1px solid #d7dfe9;
+  border-bottom: 0px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+}
+
+.historyTableHeading {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #d7dfe9;
+  /* align-items: center; */
+  padding: 0px;
+}
+.historyTableContent {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  border-bottom: 1px solid #d7dfe9;
+  margin: 0px;
+}
+.lastColumn {
+  opacity: 0;
+}
+.historyHeading {
+  color: #334155;
+  font-size: 18px;
+  font-weight: 500;
+  width: 30%;
+  text-align: center;
+}
+.historyContent {
+  color: #7e858e;
+  font-size: 18px;
+  font-weight: 400;
+  width: 30%;
+}
+.deleteImage {
+  width: 24px;
+}
+.submit {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 0px solid;
+  color: white;
+  background-color: #0b69ff;
+}
+.label {
+  color: #cbd5e1;
+  font-weight: 500;
+  font-size: 13px;
+}
+.transactionHeading {
+  color: #334155;
+  font-size: 30px;
+}
+.historyMainHeading {
+  color: #334155;
+  font-size: 30px;
+}
+.unorderedList {
+  margin: 0px;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .userContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .userName {
+    font-size: 25px;
+  }
+  .welcomeMessage {
+    font-size: 14px;
+  }
+  .transactionManagementContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+  .transactionContainer {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+  .historyContainer {
+    width: 100%;
+    min-height: 326px;
+  }
+  .historyMainHeading {
+    font-size: 20px;
+  }
+  .historyHeading {
+    font-size: 13px;
+    padding-left: 10px;
+  }
+  .form {
+    margin-bottom: 15px;
+  }
+  .transactionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .transactionHeading {
+    font-size: 20px;
+  }
+  .label {
+    font-size: 12px;
+    color: #7e858e;
+  }
+  .input {
+    margin-bottom: 20px;
+  }
+  .historyTable {
+    width: 100%;
+    border: 1px solid #d7dfe9;
+    border-bottom: 0px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 0px;
+  }
+  .historyTableContent {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    border-bottom: 1px solid #d7dfe9;
+    margin: 0px;
+  }
+}

@@ -1,0 +1,84 @@
+/* Write your CSS here */
+.MoneyDetailsContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.MoneyDetailsItem {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid;
+  width: 30%;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 20px 20px;
+}
+.amountContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 15px;
+}
+.image {
+  height: 70px;
+}
+.balanceClass {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.incomeClass {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.expensesClass {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.displayText {
+  color: #7e858e;
+  font-weight: 500;
+  font-size: 18px;
+  font-size: 14px;
+}
+.amount {
+  color: #475569;
+  font-weight: 400;
+  margin-top: 0px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .MoneyDetailsContainer {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  .MoneyDetailsItem {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border: 1px solid;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-top: 30px;
+    padding: 20px 20px;
+  }
+  .balanceClass {
+    border: 1px solid #84cc16;
+    background-color: #ecfccb;
+  }
+  .incomeClass {
+    border: 1px solid #06b6d4;
+    background-color: #cffafe;
+  }
+  .expensesClass {
+    border: 1px solid #7c3aed;
+    background-color: #ede9fe;
+  }
+  .amount {
+    font-size: 15px;
+  }
+}

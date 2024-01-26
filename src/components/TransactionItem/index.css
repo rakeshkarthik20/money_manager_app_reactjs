@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.historyTableContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.historyContent {
+  width: 35px;
+  text-align: center;
+}
+.deleteButton {
+  background-color: transparent;
+  border: 0px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .historyContent {
+    font-size: 12px;
+    padding-left: 10px;
+    margin-right: 13px;
+  }
+  .deleteImage {
+    width: 19px;
+    margin-left: 12px;
+  }
+  .historyTableContent {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
